@@ -1,0 +1,155 @@
+.team_carousel_main {
+    height: 100%;
+    width: 100%;
+}
+
+.team_carousel {
+    height: 100%;
+    width: 400%;
+
+    display: inline-flex;
+    align-items: center;
+
+    position: relative;
+
+    transition: transform 0.4s;
+}
+
+.person_card_container {
+    width: calc(100% / 4);
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.person_card {
+    height: 95%;
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+
+    border-radius: 1rem;
+    background-color: var(--white-1);
+    box-shadow: 0 0.2rem 0.3rem #00000023;
+}
+
+.team_carousel_buttons {
+    width: 100%;
+    
+    position: relative;
+    top: calc(50% - 3rem); 
+    
+    z-index: 100;
+}
+
+.team_carousel_button:nth-child(1) {
+    height: 5rem;
+
+    position: absolute;
+    left: 0;
+
+    background-color: transparent;
+    border: none;
+}
+.team_carousel_button:nth-child(1):hover {
+    color: var(--blue-2);
+}
+.team_carousel_button:nth-child(1):active{
+    color: var(--blue-2-darker);
+}
+.team_carousel_button:nth-child(2) {
+    height: 5rem;
+
+    position: absolute;
+    right: 0;
+
+    background-color: transparent;
+    border: none;
+}
+.team_carousel_button:nth-child(2):hover {
+    color: var(--blue-2);
+}
+.team_carousel_button:nth-child(2):active{
+    color: var(--blue-2-darker);
+}
+
+/*---------*/
+.person_card_image {
+    height: 25%;
+    object-fit: contain;
+}
+
+.person_card_h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+
+    margin: 1rem 0 0 0;
+
+    word-break: normal;
+    white-space: normal;
+    text-align: center;
+}
+
+.person_card_text {
+    width: 100%;
+
+    overflow: scroll;
+
+    font-size: 0.9rem;
+    font-style: italic;
+
+    text-align: justify;
+
+    color: var(--gray);
+}
+
+@media only screen and (max-width:600px) {
+    .team_carousel {
+        height: 100%;
+        width: 1000%;
+    
+        display: inline-flex;
+        align-items: center;
+    
+        position: relative;
+
+        gap: 4rem;
+    
+        transition: transform 0.4s;
+    }
+
+    .person_card_container {
+        width: auto;
+        height: 100%;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        gap: 4rem;
+    }
+
+    .person_card {
+        height: 95%;
+        width: 20rem;
+    
+        display: flex;
+        flex-direction: column;
+    
+        padding: 2rem;
+    
+        border-radius: 1rem;
+        background-color: var(--white-1);
+        box-shadow: 0 0.2rem 0.3rem #00000023;
+    }
+
+    .team_carousel_buttons {
+        display: none;
+    }
+
+}

@@ -1,0 +1,69 @@
+.latestpost_container {
+    height: 100%;
+    width: 100%;
+}
+
+.latestpost_container_title {
+    height: 8vh;
+    width: 100%;
+
+    margin: 0;
+    padding: 2vh 0 2vh 0;
+    
+    color: var(--white-1);
+}
+
+.latestpost_card_container {
+    height: 90%;
+    width: 100%;
+
+    padding: 0;
+
+    display: flex;
+
+    gap: 2rem;
+}
+
+.latestpost_card {
+    display: grid;
+    grid-auto-rows: 5% calc(90% - 2vh) 5%;
+    row-gap: 1vh;
+
+    padding: 2rem;
+
+    border-radius: 1rem;
+    box-shadow: 0 0.2rem 0.3rem #00000086;
+
+    background-color: var(--white-1);
+}
+
+
+@media only screen and (max-width:600px) {
+
+    .latestpost_container_title {
+        width: 100%;
+
+        text-align: center;
+    
+        margin: 0;
+        padding: 2vh 0 2vh 0;
+        
+        color: var(--white-1);
+    }
+
+    .card_title {
+        margin: 0;
+    
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .card_text {
+        margin: 0;
+    
+        text-align: justify;
+        word-break: normal;
+        font-style: italic;
+        
+        font-family: 'Poppins', sans-serif;
+    }
+}

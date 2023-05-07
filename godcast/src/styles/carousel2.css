@@ -1,0 +1,29 @@
+.carousel2 {
+    height: 400%;
+
+    display: inline-flex;
+
+    position: relative;
+
+    left: 0;
+    transition: transform 0.5s;
+}
+
+.carousel2_images_container {
+    height: calc(100% / 4);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.carousel2_image {
+    height: 100%;
+    
+}
+
+.carousel2_img {
+    height: 100%;
+    
+}

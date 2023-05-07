@@ -1,0 +1,136 @@
+.footer {
+    box-sizing: border-box;
+
+    width: 100vw;
+    height: 8rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    bottom: 0;
+
+    background-color: var(--blue-1);
+    /*
+    background-image: url(../assets/images/patterns/patron2_light.png);
+    background-size: auto 5rem;
+    background-repeat: repeat;
+    */
+}
+
+.footer_container {
+    width: calc(100vw - 10vw);
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-weight: 500;
+    color: var(--white-1);
+}
+
+.footer_container_left {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 0.5rem;
+}
+
+.footer_container_left a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+
+    margin: 0 1rem 0 1rem;
+
+    font-weight: 500;
+
+    color: var(--white-1);
+}
+
+.footer_container_left a:hover{
+    color: var(--blue-2);
+}
+
+.footer_container_left a:first-child {
+    margin-left: 0;
+}
+
+.text {
+    font-family: 'Poppins', sans-serif;
+
+    font-size: small;
+    font-weight: 400;
+
+    color: var(--blue-2);
+}
+
+.footer_container_right {
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    gap: 1.5vw;
+
+    margin: 0;
+    padding: 0;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+
+    padding: 0;
+
+    
+
+    border: none;
+    background-color: var(--blue-1-lighter);
+}
+
+.svg_icons {
+    height: 3vh;
+}
+
+
+
+@media only screen and (max-width:600px) {
+    .footer {
+        height: auto;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .footer_container {
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+
+        gap: 1rem;
+    }
+
+    .footer_container_left{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer_container_left a {
+        margin: 1rem;
+    }
+
+    .footer_container_right {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .text {
+        padding: 0;
+    }
+}
