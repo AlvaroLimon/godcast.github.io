@@ -4,21 +4,19 @@
     width: 100%;
 
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
 }
   
 .innermobile {
     height: 100%;
     width: 100%;
-    white-space: nowrap;
+ 
     transition: transform 0.4s;
     
 }
 
 .carousel-item-mobile {
-    height: 100%;
-    width: 100%;
     display: inline-flex;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: center;
 }

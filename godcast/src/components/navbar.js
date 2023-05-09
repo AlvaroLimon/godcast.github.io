@@ -42,16 +42,16 @@ function Navbar() {
                 <div className={`elements_container ${showNavbar && 'active'}`}>
                     <ul className='elements_text'>
                         <li>
-                            <a href="/" className='nav_item' id='btn_s1' onClick={handleClickScroll}>Inicio</a>
+                            <span className='nav_item' id='btn_s1' onClick={handleClickScroll}>Inicio</span>
                         </li>
                         <li>
-                            <a href="/" className='nav_item' id='btn_s2' onClick={handleClickScroll}>Quienes somos</a>
+                            <span className='nav_item' id='btn_s2' onClick={handleClickScroll}>Quienes somos</span>
                         </li>
                         <li>
-                            <a href="/" className='nav_item' id='btn_s3' onClick={handleClickScroll}>Meditaciones</a>
+                            <span  className='nav_item' id='btn_s3' onClick={handleClickScroll}>Meditaciones</span>
                         </li>
                         <li>
-                            <a href="/" className='nav_item' id='btn_s4'onClick={handleClickScroll}>Ayudar</a>
+                            <span className='nav_item' id='btn_s4'onClick={handleClickScroll}>Ayudar</span>
                         </li>
                     </ul>
                     <ul className='elements_icons'>

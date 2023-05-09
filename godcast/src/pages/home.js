@@ -1,18 +1,18 @@
 import React from 'react'
 
 import Carousel2 from '../components/carousel2';
-import CarouselMobile, { CarouselItemMobile } from '../components/carouselmobile';
+import CarouselMobile2 from '../components/carouselmobile2';
 import MediumBlog from '../components/mediumblog'
 import LatestPost from '../components/mediumlatest';
 import TeamCarousel from '../components/teamcarousel';
 
 import logo from '../assets/images/logo_godcast.png';
-import { new_hombre_celular_movil, new_hombre_sala_movil, new_mujer_celular_movil, new_mujer_cocina_movil } from '../assets/images/people/assets_people'
 //import video1 from '../assets/videos/godcastkids_video.mp4'
 import { svg_apple_color, svg_spotify_color, svg_whatsapp_color, svg_youtube_color, svg_gk } from '../assets/icons/assets_icons'
 import { svg_donate } from '../assets/icons/assets_icons'
 
 import '../styles/home.css'
+
 
 
 function Home() {
@@ -67,20 +67,7 @@ function Home() {
                     </div>
                     
                     <div className='carousel_mobile'>
-                        <CarouselMobile className="carousel_mobile_home">
-                            <CarouselItemMobile>
-                                <img className='carousel_images_mobile' src={new_mujer_cocina_movil} alt='audifonos' />
-                            </CarouselItemMobile>
-                            <CarouselItemMobile>
-                                <img className='carousel_images_mobile' src={new_hombre_celular_movil} alt='cocina' />
-                            </CarouselItemMobile>
-                            <CarouselItemMobile>
-                                <img className='carousel_images_mobile' src={new_mujer_celular_movil} alt='coche' />
-                            </CarouselItemMobile>
-                            <CarouselItemMobile>
-                                <img className='carousel_images_mobile' src={new_hombre_sala_movil} alt='oratorio' />
-                            </CarouselItemMobile>
-                        </CarouselMobile>
+                        <CarouselMobile2/>
                     </div> 
                 </div>
             </div>
@@ -91,7 +78,7 @@ function Home() {
                     <h2 className='header2'>
                         ¿Quiénes somos?
                     </h2>
-                    <p className='description2'> Somos un grupo de sacerdotes mexicanos a los que nos une el amor a Jesucristo y a la predicación del Evangelio.<br></br><br></br>Puedes encontrarnos en los siguientes medios: </p>
+                    <p className='description2'> Somos un grupo de sacerdotes mexicanos a los que nos une el amor a Jesucristo y a la predicación del Evangelio.<br></br>Puedes encontrarnos en los siguientes medios: </p>
                 </div>
                 <div className='section_2_container_right'>
                     <div className='team_carousel_container'>

@@ -28,10 +28,10 @@ function Footer() {
         <div className='footer_container'>
             <div className='footer_container_left'>
                 <div className='links'>
-                    <a id='btn_s11' onClick={handleClickScroll} href="/">Inicio</a>
-                    <a id='btn_s22' onClick={handleClickScroll} href="/">Quienes somos</a>
-                    <a id='btn_s33' onClick={handleClickScroll} href="/">Meditaciones</a>
-                    <a id='btn_s44' onClick={handleClickScroll} href="/">Ayudar</a>
+                    <span id='btn_s11' onClick={handleClickScroll} >Inicio</span>
+                    <span id='btn_s22' onClick={handleClickScroll} >Quienes somos</span>
+                    <span id='btn_s33' onClick={handleClickScroll} >Meditaciones</span>
+                    <span id='btn_s44' onClick={handleClickScroll} >Ayudar</span>
                 </div>
                 <div className='text'>
                     GODCAST © 2023 / 10 minutos con Jesús

@@ -118,7 +118,7 @@
     
         position: relative;
 
-        gap: 4rem;
+        gap: 2.5rem;
     
         transition: transform 0.4s;
     }
@@ -131,7 +131,7 @@
         align-items: center;
         justify-content: space-between;
 
-        gap: 4rem;
+        gap: 2.5rem;
     }
 
     .person_card {

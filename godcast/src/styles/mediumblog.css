@@ -31,7 +31,7 @@
     max-width: 30%;
 
     display: grid;
-    grid-auto-rows: 30% calc(55% - 2vh) 15%;
+    grid-auto-rows: auto calc(55% - 2vh) 15%;
     row-gap: 1vh;
 
     padding: 2rem;

@@ -69,11 +69,15 @@
     gap: 1.5vw;
 }
 
-.elements_container ul a {
+.elements_container ul span {
     text-decoration: none;
     
     display: flex;
     align-items: flex-end;
+
+    cursor: pointer;
+
+    user-select: none;
 }
 
 .svg_icons {
@@ -153,7 +157,7 @@
         height: auto;
     }
 
-    .elements_container ul a{
+    .elements_container ul span{
         text-align: end;
     }
 }

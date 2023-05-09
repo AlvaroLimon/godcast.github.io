@@ -26,7 +26,7 @@
 
 .latestpost_card {
     display: grid;
-    grid-auto-rows: 5% calc(90% - 2vh) 5%;
+    grid-auto-rows: auto calc(90% - 2vh) 5%;
     row-gap: 1vh;
 
     padding: 2rem;
@@ -52,7 +52,10 @@
     }
 
     .card_title {
+        height: auto;
         margin: 0;
+
+        display: flex;
     
         font-family: 'Poppins', sans-serif;
     }

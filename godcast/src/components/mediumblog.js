@@ -41,7 +41,7 @@ function MediumBlog() {
       {posts.map(post => (
         <div className='card' key={post.guid}>
           <h3 className='card_title'>{post.title}</h3>
-          <p className='card_text'>{convertToPlain(post.description, 70)}</p>
+          <p className='card_text'>{convertToPlain(post.description, 100)}</p>
           <a className='read_more' href={post.link}>Read more on Medium</a>
         </div>
       )).slice(1,4)}
