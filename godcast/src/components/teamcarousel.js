@@ -101,7 +101,7 @@ function TeamCarousel() {
                 <img className='person_card_image' alt='personimg' src={JFC}></img>
                 <h2 className='person_card_h2'>Pbro. Josemaría Fernández Cueto</h2>
                 <p className='person_card_text'>
-                    Soy de la Ciudad de México pero vivo en Guadalajara después de haber recibido la Ordenación Sacerdotal, hace diez años. He trabajado con jóvenes casi toda mi vida. Procuro ayudarles a buscar, encontrar y amar a Jesús con todo el corazón, como nos enseñó San Josemaría. Actualmente soy Capellán de Los Altos, una escuela para niñas donde creemos que las cosas ordinarias se pueden hacer extraordinariamente bien por amor a Dios. Disfruto de la compañía de mi f
+                    Soy de la Ciudad de México pero vivo en Guadalajara después de haber recibido la Ordenación Sacerdotal, hace diez años. He trabajado con jóvenes casi toda mi vida. Procuro ayudarles a buscar, encontrar y amar a Jesús con todo el corazón, como nos enseñó San Josemaría. Actualmente soy Capellán de Los Altos, una escuela para niñas donde creemos que las cosas ordinarias se pueden hacer extraordinariamente bien por amor a Dios. Disfruto de la compañía de mi familia. Me gusta jugar tenis y tomar cerveza con los amigos.
                 </p>
             </div> 
             <div className='person_card'>

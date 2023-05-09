@@ -40,7 +40,7 @@ function Home() {
                         </button>
                         </a>
                         <button className='learnmore' href='/' onClick={buttonScroll}>
-                            Ir a las meditaciones
+                            Meditaciones escritas
                         </button>
                     </div>
                     <div className='medios_container'>
@@ -78,7 +78,7 @@ function Home() {
                     <h2 className='header2'>
                         ¿Quiénes somos?
                     </h2>
-                    <p className='description2'> Somos un grupo de sacerdotes mexicanos a los que nos une el amor a Jesucristo y a la predicación del Evangelio.<br></br>Puedes encontrarnos en los siguientes medios: </p>
+                    <p className='description2'> Somos un grupo de sacerdotes mexicanos a los que nos une el amor a Jesucristo y a la predicación del Evangelio.</p>
                 </div>
                 <div className='section_2_container_right'>
                     <div className='team_carousel_container'>

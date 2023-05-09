@@ -34,7 +34,7 @@ function Footer() {
                     <span id='btn_s44' onClick={handleClickScroll} >Ayudar</span>
                 </div>
                 <div className='text'>
-                    GODCAST © 2023 / 10 minutos con Jesús
+                    GODCAST © 2023 / Un ratito con Jesús
                 </div>
             </div>
             <div className='footer_container_right'>
