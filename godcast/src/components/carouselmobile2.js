@@ -18,7 +18,7 @@ function CarouselMobile2() {
             else {
                 setPosition(0)
             }
-        }, 10000);
+        }, 4000);
     });
 
   return (
