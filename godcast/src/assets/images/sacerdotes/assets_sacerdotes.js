@@ -11,6 +11,12 @@ import CM from '../sacerdotes/CM.png'
 import ER from '../sacerdotes/ER.png'
 import RV from '../sacerdotes/RV.png'
 import HR from '../sacerdotes/HR.png'
+import CA from '../sacerdotes/CA.png'
+import CMK from '../sacerdotes/CMK.png'
+import JAC from '../sacerdotes/JAC.png'
+import JPL from '../sacerdotes/JPL.png'
+import OE from '../sacerdotes/OE.png'
+import TL from '../sacerdotes/TL.png'
 
 
-export { JFC, FU, PB, GG, AC, FGC, RA, ED, JM, CM, ER, RV, HR }
+export { JFC, FU, PB, GG, AC, FGC, RA, ED, JM, CM, ER, RV, HR, CA, CMK, JAC, JPL, OE, TL }

@@ -17,7 +17,7 @@ function Carousel2() {
             else {
                 setPosition(0)
             }
-        }, 3000);
+        }, 4000);
     });
 
   return (
