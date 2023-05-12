@@ -10,6 +10,7 @@ function LatestPost() {
       .then(data => setPosts(data.items));
   }, []);
 
+  /*
   function convertToPlain(html){
 
     // Create a new div element
@@ -19,7 +20,12 @@ function LatestPost() {
     tempDivElement.innerHTML = html;
 
     // Retrieve the text property of the element 
-    return tempDivElement.textContent || tempDivElement.innerText || "";
+    return tempDivElement.textContent;
+  }
+  */
+
+  function convertToComponent(html) {
+    return <div dangerouslySetInnerHTML={{ __html: html }} />;
   }
 
   /*const removeHtmlTags = (text) => {
@@ -34,7 +40,7 @@ function LatestPost() {
       {posts.map(post => (
         <div className='latestpost_card' key={post.guid}>
           <h3 className='card_title'>{post.title}</h3>
-          <p className='card_text'>{convertToPlain(post.description)}</p>
+          <p className='card_text'>{convertToComponent(post.description)}</p>
           <a className='read_more' href={post.link}>Read more on Medium</a>
         </div>
       ))[0]}

@@ -31,7 +31,7 @@
     max-width: 30%;
 
     display: grid;
-    grid-auto-rows: auto calc(55% - 2vh) 15%;
+    grid-auto-rows: 35% auto 15%;
     row-gap: 1vh;
 
     padding: 2rem;
@@ -46,12 +46,14 @@
     margin: 0;
 
     font-family: 'Poppins', sans-serif;
+
+    overflow: scroll;
 }
 
 .card_text {
     margin: 0;
 
-    text-align: justify;
+    text-align: left;
     word-break: normal;
     font-style: italic;
 
@@ -59,6 +61,7 @@
     
     font-family: 'Poppins', sans-serif;
 }
+
 
 .card_text::-webkit-scrollbar {
     width: 0.5vw;
