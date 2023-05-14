@@ -160,4 +160,8 @@
     .elements_container ul span{
         text-align: end;
     }
+
+    .logo {
+        visibility: visible;
+    }
 }

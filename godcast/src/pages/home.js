@@ -31,7 +31,7 @@ function Home() {
                         Un ratito con Jesús
                     </h1>
                     <p className='description'>
-                        Audios de 10 minutos grabados por sacerdotes mexicanos que te ayudarán a conectar con Jesús todos los días.
+                        Audios de 10 minutos para hacer oración, grabados por sacerdotes mexicanos que te ayudarán a conectar con Jesús todos los días.
                     </p>
                     <div className='buttons_container'>
                         <a href='https://chat.whatsapp.com/Ki6hhWNsgH904Rx3RfWpGk'>
@@ -78,7 +78,7 @@ function Home() {
                     <h2 className='header2'>
                         ¿Quiénes somos?
                     </h2>
-                    <p className='description2'> Somos un grupo de sacerdotes mexicanos a los que nos une el amor a Jesucristo y a la predicación del Evangelio.</p>
+                    <p className='description2'> Somos un grupo de sacerdotes mexicanos a los que nos une el amor a Jesucristo y la predicación del Evangelio.</p>
                 </div>
                 <div className='section_2_container_right'>
                     <div className='team_carousel_container'>
@@ -117,7 +117,7 @@ function Home() {
                     <div className='donation_container'>
                         <div className='icon_wrapper'><img className='svg_icons_paypal' src={svg_donate} alt='donate'></img></div>
                         <p className='amount_instructions'>haz click en el boton para ir a la página de donaciones</p>
-                        <button className='godcastkids_button'>Hacer una donación</button>
+                        <a href='https://buy.stripe.com/00g4jRfPfcEDbfy9AA'><button className='godcastkids_button' >Hacer una donación</button></a>
                     </div>
                 </div>
             </div>

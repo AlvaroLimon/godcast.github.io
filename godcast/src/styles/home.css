@@ -613,6 +613,8 @@
     align-items: center;
     justify-content: center;
 
+    gap: 1rem;
+
     border-radius: 1rem;
     background-color: var(--white-1);
     box-shadow: 0 0.2rem 0.3rem #00000023;
@@ -639,7 +641,7 @@
 }
 
 .svg_icons_paypal {
-    height: 5vh;  
+    height: 8vh;  
 }
 
 @media only screen and (max-width:600px) {

@@ -52,17 +52,17 @@ function TeamCarousel() {
                 </p>
             </div>
             <div className='person_card'>
-                <img className='person_card_image' alt='personimg' src={CM}></img>
-                <h2 className='person_card_h2'>Pbro. Cristian Mendoza</h2>
-                <p className='person_card_text'>
-                    Soy el segundo de tres hermanos. Nací en Zamora y crecí en Guadalajara, mis papás son buenos católicos y un gran ejemplo. Estudié finanzas en la UP y desde el 2003 vivo en Roma. Doy clases de moral social en la Pontificia Universidad de la Santa Cruz. Me ordenaron sacerdote el 14 de mayo del 2011.
-                </p>
-            </div>
-            <div className='person_card'>
                 <img className='person_card_image' alt='personimg' src={CMK}></img>
                 <h2 className='person_card_h2'>Pbro. Claudio Minakata U.</h2>
                 <p className='person_card_text'>
                     Soy de Guadalajara, bueno, ahora soy de Naucalpan, Edomex. Y es increíble. Estudié en el colegio Altamira y luego Administración y Finanzas en la UP. Entre 2009 y 2015 viví en Roma y Pamplona. En la Universidad de Navarra hice un doctorado en Derecho Canónico. Trabajé de 2015 a 2019 en Guadalajara y Ciudad de México. Soy sacerdote desde el 5.IX.2020. Ahora soy capellán de dos magníficos Colegios: Cedros Norte y Paseo. Me gusta leer y la música; correr, nadar, la bicicleta, el montañismo y el basketball. Soy del Atlas desde antes de nacer: junto con la fe, la mejor herencia de mis papás (ser fiel). CONSEJO: No tengas miedo. El miedo impide amar al Señor y ser libre. Ayuda recordar lo que dice San Josemaría: lo que se necesita para conseguir la felicidad, no es una vida cómoda, sino un corazón enamorado.
+                </p>
+            </div>
+            <div className='person_card'>
+                <img className='person_card_image' alt='personimg' src={CM}></img>
+                <h2 className='person_card_h2'>Pbro. Cristian Mendoza</h2>
+                <p className='person_card_text'>
+                    Soy el segundo de tres hermanos. Nací en Zamora y crecí en Guadalajara, mis papás son buenos católicos y un gran ejemplo. Estudié finanzas en la UP y desde el 2003 vivo en Roma. Doy clases de moral social en la Pontificia Universidad de la Santa Cruz. Me ordenaron sacerdote el 14 de mayo del 2011.
                 </p>
             </div>
         </div>

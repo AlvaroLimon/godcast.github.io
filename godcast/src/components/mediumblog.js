@@ -26,9 +26,11 @@ function MediumBlog() {
     }
   }
 
+  /*
   function convertToComponent(html) {
     return <div dangerouslySetInnerHTML={{ __html: html }} />;
   }
+  */
 
   /*
   const removeHtmlTags = (text, maxLength) => {
