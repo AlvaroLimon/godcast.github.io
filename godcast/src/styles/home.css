@@ -124,7 +124,7 @@
     display: none;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:600px), screen and (orientation: landscape) {
     .section_1 {
         height: auto;
     }
@@ -400,7 +400,7 @@
 }
 
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:600px), screen and (orientation: landscape) {
     .section_2 {
         height: auto;
     }
@@ -537,7 +537,7 @@
 }
 
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:600px), screen and (orientation: landscape) {
     .section_3 {
         height: auto;
 
@@ -644,7 +644,7 @@
     height: 8vh;  
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:600px), screen and (orientation: landscape) {
     .section_4 {
         height: auto;
         padding: 2rem 0 2rem 0;

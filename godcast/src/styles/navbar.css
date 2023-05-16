@@ -100,12 +100,13 @@
 
 
 /* Small screens */
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:600px), screen and (orientation: landscape) {
     .hamburguer_menu {
         display: flex;
+        height: 100%;
+        width: 2rem;
         align-items: center;
     }
-
 
     .elements_container {
         height: calc(100vh - 5rem);
