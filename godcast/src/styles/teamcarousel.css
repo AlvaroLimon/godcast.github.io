@@ -113,7 +113,8 @@
     opacity: 0;
 }
 
-@media only screen and (max-width:600px), screen and (orientation: landscape) {
+@media only screen and (max-width:600px) {
+    @supports (orientation: landscape) or (max-height: 400px) {
     .team_carousel {
         height: 100%;
         width: 1000%;
@@ -156,5 +157,5 @@
     .team_carousel_buttons {
         display: none;
     }
-
+    }
 }

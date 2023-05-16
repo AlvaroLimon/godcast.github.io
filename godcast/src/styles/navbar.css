@@ -87,6 +87,10 @@
 .nav_item {
     font-weight: 500;
     color: var(--white-1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav_item:hover {
@@ -100,7 +104,8 @@
 
 
 /* Small screens */
-@media only screen and (max-width:600px), screen and (orientation: landscape) {
+@media only screen and (max-width:600px) {
+    @supports (orientation: landscape) or (max-height: 400px) {
     .hamburguer_menu {
         display: flex;
         height: 100%;
@@ -165,4 +170,5 @@
     .logo {
         visibility: visible;
     }
+}
 }

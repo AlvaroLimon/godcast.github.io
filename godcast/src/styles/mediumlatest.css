@@ -38,7 +38,8 @@
 }
 
 
-@media only screen and (max-width:600px), screen and (orientation: landscape) {
+@media only screen and (max-width:600px) {
+    @supports (orientation: landscape) or (max-height: 400px) {
 
     .latestpost_container_title {
         width: 100%;
@@ -71,4 +72,5 @@
         
         font-family: 'Poppins', sans-serif;
     }
+}
 }
