@@ -39,7 +39,6 @@
 
 
 @media only screen and (max-width:600px) {
-    @supports (orientation: landscape) or (max-height: 400px) {
 
     .latestpost_container_title {
         width: 100%;
@@ -73,4 +72,37 @@
         font-family: 'Poppins', sans-serif;
     }
 }
+
+@media only screen and (max-width:915px) and (orientation:landscape) {
+    .latestpost_container_title {
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        margin: 0;
+        padding: 2vh 0 2vh 0;
+        
+        color: var(--white-1);
+    }
+
+    .card_title {
+        height: auto;
+        margin: 0;
+
+        display: flex;
+    
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .card_text {
+        margin: 0;
+    
+        text-align: justify;
+        word-break: normal;
+        font-style: italic;
+        
+        font-family: 'Poppins', sans-serif;
+    }
 }

@@ -108,13 +108,9 @@
     color: var(--gray);
 }
 
-.fill_card {
-    width: 20%;
-    opacity: 0;
-}
+
 
 @media only screen and (max-width:600px) {
-    @supports (orientation: landscape) or (max-height: 400px) {
     .team_carousel {
         height: 100%;
         width: 1000%;
@@ -157,5 +153,50 @@
     .team_carousel_buttons {
         display: none;
     }
+
+}
+
+@media only screen and (max-width:915px) and (orientation:landscape) {
+    .team_carousel {
+        height: 100%;
+        width: 1000%;
+    
+        display: inline-flex;
+        align-items: center;
+    
+        position: relative;
+
+        gap: 2.5rem;
+    
+        transition: transform 0.4s;
+    }
+
+    .person_card_container {
+        width: auto;
+        height: 100%;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        gap: 2.5rem;
+    }
+
+    .person_card {
+        height: 95%;
+        width: 20rem;
+    
+        display: flex;
+        flex-direction: column;
+    
+        padding: 2rem;
+    
+        border-radius: 1rem;
+        background-color: var(--white-1);
+        box-shadow: 0 0.2rem 0.3rem #00000023;
+    }
+
+    .team_carousel_buttons {
+        display: none;
     }
 }
