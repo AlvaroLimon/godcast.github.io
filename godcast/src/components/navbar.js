@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 
 import { svg_whatsapp, svg_spotify, svg_youtube, svg_apple, svg_hamburguer } from '../assets/icons/assets_icons'
 import logo from '../assets/images/logo_godcast.png';
@@ -8,6 +8,21 @@ import '../styles/navbar.css'
 
 function Navbar() {
     const [showNavbar, setShowNavbar] = useState(false)
+    const navbarRef = useRef();
+
+    useEffect(() => {
+        function handleClickOutside(event) {
+          if (navbarRef.current && !navbarRef.current.contains(event.target) && showNavbar) {
+            handleShowNavbar()
+          }
+        }
+    
+        document.addEventListener('touchstart', handleClickOutside);
+    
+        return () => {
+          document.removeEventListener('touchstart', handleClickOutside);
+        };
+      });
 
     const handleShowNavbar = () => {
         setShowNavbar(!showNavbar)
@@ -33,7 +48,7 @@ function Navbar() {
     };
 
   return (
-    <nav className='navbar'>
+    <nav className='navbar' ref={navbarRef}>
         <div className='navbar_container'>
             <div className='navbar_container_left'>
                 <a href="/" className='logo_container'><img className='logo' src={logo} alt="logo"/></a>
