@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 
-import { JFC, FU, PB, GG, AC, FGC, RA, ED, JM, CM, ER, RV, HR, CA, CMK, JAC, JPL, OE, TL } from '../assets/images/sacerdotes/assets_sacerdotes'
+import { JFC, FU, PB, GG, AC, FGC, RA, ED, JM, CM, ER, RV, HR, CA, CMK, JAC, JPL, OE, TL, EA } from '../assets/images/sacerdotes/assets_sacerdotes'
 
 import '../styles/teamcarousel.css'
 
@@ -75,6 +75,13 @@ function TeamCarousel() {
                 </p>
             </div>
             <div className='person_card'>
+                <img className='person_card_image' alt='personimg' src={EA}></img>
+                <h2 className='person_card_h2'>Pbro. Enrique Arce</h2>
+                <p className='person_card_text'>
+                    Nací en la Ciudad de Mexico en 1964 y soy el mayor de seis hermanos. Estudié Ingeniería Industrial en el Tec de Monterrey Campus Querétaro, y trabajé varios años en empresa educativas.  Fui ordenado sacerdote en Roma, en 2005, y luego hice un doctorado en Teología Moral. Como sacerdote he colaborado en la capellania de la UP y en la de varios colegios, actualmente en la Capellania de Cedros y de la preparatoria de la UP en Ciudad de México.
+                </p>
+            </div>
+            <div className='person_card'>
                 <img className='person_card_image' alt='personimg' src={ER}></img>
                 <h2 className='person_card_h2'>Pbro. Ervin Ramos</h2>
                 <p className='person_card_text'>
@@ -88,6 +95,8 @@ function TeamCarousel() {
                     Nací en la Ciudad de México. Soy Licenciado en Ciencias de la Comunicación y Doctor en Teología. Recibí la Ordenación Sacerdotal en Roma en 2006. Trabajo actualmente como Capellán en la Universidad Panamericana.
                 </p>
             </div>
+        </div>
+        <div className='person_card_container'>
             <div className='person_card'>
                 <img className='person_card_image' alt='personimg' src={FU}></img>
                 <h2 className='person_card_h2'>Pbro. Francisco Ugarte</h2>
@@ -95,8 +104,6 @@ function TeamCarousel() {
                     Vivo en la Ciudad de México, aunque soy de Guadalajara. Estudié la licenciatura y la maestría en la UNAM, y el doctorado también en filosofía en la Universidad de la Santa Cruz en Roma. Actualmente soy capellán del Ipade Business School y también colaboro en la formación de profesores de la Universidad Panamericana. Tuve la gran fortuna de convivir con San Josemaría, que me dejó una huella indeleble. Me gusta mucho el deporte, especialmente ahora la bicicleta de montaña.
                 </p>
             </div>
-        </div>
-        <div className='person_card_container'>
             <div className='person_card'>
                 <img className='person_card_image' alt='personimg' src={GG}></img>
                 <h2 className='person_card_h2'>Pbro. Guillermo Gutiérrez</h2>
@@ -118,6 +125,9 @@ function TeamCarousel() {
                     Soy sacerdote desde 1995 y me ordené en Roma a los cuarenta años. Estudié derecho y ejercí la profesión 15 años antes de ordenarme: litigaba fiscal y laboral. Como sacerdote me he dedicado buen tiempo a trabajar con gente joven. Soy aficionado a la NFL y poco al soccer.
                 </p>
             </div> 
+            
+        </div>
+        <div className='person_card_container'> 
             <div className='person_card'>
                 <img className='person_card_image' alt='personimg' src={JFC}></img>
                 <h2 className='person_card_h2'>Pbro. Josemaría Fernández Cueto</h2>
@@ -125,8 +135,6 @@ function TeamCarousel() {
                     Soy de la Ciudad de México pero vivo en Guadalajara después de haber recibido la Ordenación Sacerdotal, hace diez años. He trabajado con jóvenes casi toda mi vida. Procuro ayudarles a buscar, encontrar y amar a Jesús con todo el corazón, como nos enseñó San Josemaría. Actualmente soy Capellán de Los Altos, una escuela para niñas donde creemos que las cosas ordinarias se pueden hacer extraordinariamente bien por amor a Dios. Disfruto de la compañía de mi familia. Me gusta jugar tenis y tomar cerveza con los amigos.
                 </p>
             </div> 
-        </div>
-        <div className='person_card_container'> 
             <div className='person_card'>
                 <img className='person_card_image' alt='personimg' src={JM}></img>
                 <h2 className='person_card_h2'>Pbro. Josemaría Mayora</h2>
@@ -148,6 +156,9 @@ function TeamCarousel() {
                     Nací en Orizaba Veracruz. Recibí el orden sacerdotal en 2016. Aunque estudié Ingeniería Civil, me he dedicado a la educación, gusto heredado de mi papá, actualmente vivo en Hermosillo Sonora, trabajo como capellán del colegio Campogrande. Otro gusto que tengo es la música, desde pequeño toco la batería y también me gusta mucho la historia del arte, soy fan de Caravaggio y Miguel Angel, también de los padres de San Diego y sobre todo de los Steelers.
                 </p>
             </div> 
+            
+        </div>
+        <div className='person_card_container'>
             <div className='person_card'>
                 <img className='person_card_image' alt='personimg' src={PB}></img>
                 <h2 className='person_card_h2'>Pbro. Pedro Benítez</h2>
@@ -155,8 +166,6 @@ function TeamCarousel() {
                     Nací en la Ciudad de México. Soy sacerdote de la arquidiócesis de Tlalnepantla. Actualmente vivo en España donde me dedico a la formación sacerdotal.
                 </p>
             </div>
-        </div>
-        <div className='person_card_container'>
             <div className='person_card'>
                 <img className='person_card_image' alt='personimg' src={RA}></img>
                 <h2 className='person_card_h2'>Pbro. Rafael Arce</h2>
@@ -178,8 +187,7 @@ function TeamCarousel() {
                     Soy de Monterrey NL. Estudié periodismo por providencia divina aunque siempre he tenido vena ingenieríl. Luego me dio por la Teología Bíblica y aquí estamos. Fui ordenado sacerdote en 2014 (en Roma) y desde entonces, feliz de la vida. Me encanta la literatura, la narrativa, y un montón de cosas más. Me gusta también la vida académica y universitaria. O sea... un poco ñoño sí soy, pero un poco nada más...
                 </p>
             </div>
-            <div className='fill_card'>
-            </div>
+            
         </div>
     </div>
     </div>

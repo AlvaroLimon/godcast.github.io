@@ -5,7 +5,7 @@ function MediumBlog() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@meditacionesjfc')
+    fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@godcastmx')
       .then(response => response.json())
       .then(data => setPosts(data.items));
   }, []);
