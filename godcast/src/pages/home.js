@@ -106,7 +106,7 @@ function Home() {
             <div className='section_container'>
                 <div className='section_4_container_left'>
                     <h2 className='header2'>
-                        Ayuda a los Sacerdotes
+                        Ayuda a los sacerdotes
                     </h2>
                     <p className='description2'>
                         GodCast colabora con FORSA para la Formación de Sacerdotes. Con tu donativo los ayudas en sus estudios. ¡Muchas gracias!
@@ -116,7 +116,7 @@ function Home() {
                 <div className='section_4_container_right'>
                     <div className='donation_container'>
                         <div className='icon_wrapper'><img className='svg_icons_paypal' src={svg_donate} alt='donate'></img></div>
-                        <p className='amount_instructions'>haz click en el boton para ir a la página de donaciones</p>
+                        <p className='amount_instructions'>Haz click en el boton para ir a la página de donaciones</p>
                         <a href='https://buy.stripe.com/00g4jRfPfcEDbfy9AA'><button className='godcastkids_button' >Hacer una donación</button></a>
                     </div>
                 </div>
