@@ -11,4 +11,6 @@ import new_hombre_padel_movil from './new-hombre-padel_mobile.png'
 import new_mujer_coche from './new_mujer_coche.png'
 import new_mujer_coche_movil from './new_mujer_coche_mobile.png'
 
-export { new_hombre_celular_movil, new_hombre_sala_movil, new_mujer_celular_movil, new_mujer_cocina_movil, new_mujer_cocina, new_hombre_celular, new_hombre_sala, new_mujer_celular, new_hombre_padel, new_hombre_padel_movil, new_mujer_coche, new_mujer_coche_movil }
+import gkimg1 from './niños_rezando.jpg'
+
+export { gkimg1, new_hombre_celular_movil, new_hombre_sala_movil, new_mujer_celular_movil, new_mujer_cocina_movil, new_mujer_cocina, new_hombre_celular, new_hombre_sala, new_mujer_celular, new_hombre_padel, new_hombre_padel_movil, new_mujer_coche, new_mujer_coche_movil }
