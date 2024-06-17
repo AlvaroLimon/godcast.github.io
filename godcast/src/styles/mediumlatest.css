@@ -62,7 +62,7 @@
         font-family: 'Poppins', sans-serif;
     }
 
-    .card_text {
+    .card_text_full, .card_text_section {
         margin: 0;
     
         text-align: justify;
@@ -96,7 +96,7 @@
         font-family: 'Poppins', sans-serif;
     }
 
-    .card_text {
+    .card_text_full, .card_text_section {
         margin: 0;
     
         text-align: justify;

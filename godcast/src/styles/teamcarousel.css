@@ -19,7 +19,7 @@
     width: calc(100% / 5);
     height: 100%;
 
-    padding: 0 1rem 0 1rem;
+    padding: 0 3rem 0 3rem;
 
     display: flex;
     align-items: center;
@@ -55,6 +55,7 @@
     position: absolute;
     left: 0;
 
+
     background-color: transparent;
     border: none;
 }
@@ -82,7 +83,7 @@
 
 /*---------*/
 .person_card_image {
-    height: 25%;
+    height: 86px;
     object-fit: contain;
 }
 
@@ -100,12 +101,13 @@
 .person_card_text {
     width: 100%;
 
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 
     font-size: 0.9rem;
     font-style: italic;
 
-    text-align: justify;
+    text-align: center;
 
     color: var(--gray);
 }

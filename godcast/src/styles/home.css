@@ -109,6 +109,7 @@
     margin-right: -5vw;
 
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .carousel_images {
@@ -893,7 +894,7 @@
 }
 
 .svg_icons_paypal {
-    height: 8vh;  
+    height: 14vh;  
 }
 
 @media only screen and (max-width:600px) {
@@ -1012,4 +1013,56 @@
         align-items: center;
         justify-content: center;
     }
+}
+
+/* Section 5 */
+/* --------------------------------------------------------------------- */
+.section_5 {
+    height: auto;
+    min-height: 75vh;
+
+    width: 100vw;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--blue-2);
+    /*
+    background-image: url(../assets/images/patterns/patron3_light.png);
+    background-size: auto 15rem;
+    background-repeat: repeat;
+    */
+
+
+    scroll-margin-top: 5rem;
+}
+
+.section_5_container_left {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logogk {
+    height: auto;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.section_5_container_right {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gkimg {
+    width: 100%;
+    height: fit-content;
+    transform: translate(120px, 0px);
 }
