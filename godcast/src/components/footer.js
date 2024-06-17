@@ -1,5 +1,5 @@
 import React from 'react'
-import { svg_whatsapp, svg_spotify, svg_youtube, svg_apple } from '../assets/icons/assets_icons'
+import { svg_whatsapp, svg_spotify, svg_youtube, svg_apple, svg_instagram } from '../assets/icons/assets_icons'
 import '../styles/footer.css'
 
 
@@ -29,12 +29,12 @@ function Footer() {
             <div className='footer_container_left'>
                 <div className='links'>
                     <span id='btn_s11' onClick={handleClickScroll} >Inicio</span>
-                    <span id='btn_s22' onClick={handleClickScroll} >Quienes somos</span>
+                    <span id='btn_s22' onClick={handleClickScroll} >¿Quiénes somos?</span>
                     <span id='btn_s33' onClick={handleClickScroll} >Meditaciones</span>
                     <span id='btn_s44' onClick={handleClickScroll} >Ayudar</span>
                 </div>
                 <div className='text'>
-                    GODCAST © 2023 / Un ratito con Jesús
+                    GODCAST © 2024 / Un ratito con Jesús
                 </div>
             </div>
             <div className='footer_container_right'>
@@ -42,6 +42,7 @@ function Footer() {
                 <a className='icons' href="https://spotify.link/rNPOK86w5xb"> <img className='svg_icons' src={svg_spotify} alt='spotify'></img> </a>
                 <a className='icons' href="https://www.youtube.com/@godcast-unratitoconjesus-mx/videos?sub_confirmation=1"> <img className='svg_icons' src={svg_youtube} alt='youtube'></img> </a>
                 <a className='icons' href="https://podcasts.apple.com/us/podcast/godcast-un-ratito-con-jes%C3%BAs/id1501785577"> <img className='svg_icons' src={svg_apple} alt='apple'></img> </a>
+                <a className='icons' href="https://www.instagram.com/godcastmx"> <img className='svg_icons' src={svg_instagram} alt='instagram'></img> </a>
             </div>
         </div>
     </div>

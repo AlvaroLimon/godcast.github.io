@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-import { svg_whatsapp, svg_spotify, svg_youtube, svg_apple, svg_hamburguer } from '../assets/icons/assets_icons'
+import { svg_whatsapp, svg_spotify, svg_youtube, svg_apple, svg_instagram, svg_hamburguer } from '../assets/icons/assets_icons'
 import logo from '../assets/images/logo_godcast.png';
 
 import '../styles/navbar.css'
@@ -60,7 +60,7 @@ function Navbar() {
                             <span className='nav_item' id='btn_s1' onClick={handleClickScroll}>Inicio</span>
                         </li>
                         <li>
-                            <span className='nav_item' id='btn_s2' onClick={handleClickScroll}>Quienes somos</span>
+                            <span className='nav_item' id='btn_s2' onClick={handleClickScroll}>¿Quiénes somos?</span>
                         </li>
                         <li>
                             <span  className='nav_item' id='btn_s3' onClick={handleClickScroll}>Meditaciones</span>
@@ -81,6 +81,9 @@ function Navbar() {
                         </li>
                         <li>
                             <a href="https://podcasts.apple.com/us/podcast/godcast-un-ratito-con-jes%C3%BAs/id1501785577" className='nav_item'><img className='svg_icons' src={svg_apple} alt='apple'></img></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/godcastmx" className='nav_item'><img className='svg_icons' src={svg_instagram} alt='instagram'></img></a>
                         </li>
                     </ul>
                 </div>
